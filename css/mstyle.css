@@ -1,0 +1,383 @@
+body{
+    background-image: url(../imganes/lugares/edificio2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+#vacio {
+    margin-top: 70px;
+    width: 100%;
+    height: 1300px;
+      
+}
+#vacioplomo{
+    width: 100%;
+    height: 600px;
+    background-color: skyblue;
+    color: white;
+    background: rgba(0,0,0,0.6);
+}
+#historia{
+    position: relative;
+    top: 30%;
+    margin: auto;
+    width: 600px;
+    text-align: center;
+    
+}
+
+#hist{
+    font-size: 40px;
+    font-family: "Lucida Console", Monaco, monospace;
+}
+#histp{
+    margin-top: 40px;
+    text-align: justify;
+    font-size: 14px;
+    font-family: monospace;
+    color: white;
+}
+
+#icono{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    margin-left: 50%;
+    margin-right: auto;
+    margin-top: 300px; 
+    cursor: pointer;
+    z-index: 1;
+}
+#icono  img{
+    margin: auto;
+    height: 100px;
+    width: 100px;    
+}
+
+
+
+#mcontenedor{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    margin-bottom: 0;
+    
+}
+
+.mcv{
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-top: 100px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.mtitulo{
+    margin-top: 10px;
+    font-size: 30px;
+    font-family: monospace;
+}
+.mmensaje{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.mcvideo{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+}
+
+#mcvideo1 video{
+    width: 100%;
+    height: 500px;  
+}
+
+.mcimg{
+    margin-top: 100px;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+}
+.mcimg_cont{
+    width: 40%;
+    height: 250px;
+    margin-left: 10%;
+}
+.ano{
+    color: #695c15;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.titulo{
+    margin-top: 0;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.mcontenedor2{
+    width: 100%;
+    height: 350px;
+}
+#mct2_1 #mclado1{
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+#mct2_1 .mclado2_{
+    float: left;
+    width: 30%;
+    height: 100%;
+    margin-left: 10%;   
+}
+#mct2_2{
+    height: 250px;
+}
+
+.mclado2_ .ano{
+    margin-top: 100px;
+}
+
+#mct2_2 #mclado1{
+    float: right;
+    width: 50%;
+    height: 100%;
+    margin-bottom: 0;
+}
+#mct2_2 .ano{
+    padding-top: 50px;
+}
+#mct2_2 p{
+   margin-right: 25%;
+}
+
+#mcimg2{
+    margin-top: 0;
+}
+
+
+
+
+
+#mct2_3 #mclado1{
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+#mct2_3 .mclado2_{
+    float: left;
+    width: 30%;
+    height: 100%;
+    margin-left: 10%;   
+}
+#mct2_4{
+    height: 250px;
+}
+
+.mclado4_ .ano{
+    margin-top: 100px;
+}
+
+#mct2_4 #mclado1{
+    float: right;
+    width: 50%;
+    height: 100%;
+    margin-bottom: 0;
+}
+#mct2_4 .ano{
+    padding-top: 50px;
+}
+#mct2_4 p{
+   margin-right: 25%;
+}
+
+
+#mcimg1{
+    background-image: url(../imganes/relojes/misimg3.jpg);
+}
+#mcimg2{
+    background-image: url(../imganes/relojes/misimg6.jpg);
+}
+#mct2_1 #mclado1{
+     background-image: url(../imganes/relojes/misimg1_1.jpg);
+}
+#mct2_2 #mclado1{
+     background-image: url(../imganes/relojes/misionperiodico.jpg);
+}
+#mct2_3 #mclado1{
+    background-image: url(../imganes/relojes/misimg7_1.jpg);
+    background-size: cover;
+}
+#mct2_4 #mclado1{
+    background-image: url(../imganes/relojes/misimg9.jpg);
+    background-size: cover;
+}
+#mcimg3{
+    margin-top: 0;
+    background-image: url(../imganes/relojes/misionfondo.jpg);
+    margin-bottom: 300px;
+}
+#pie{
+    margin-top: -140px;
+}
+
+
+/*BOTON*/
+
+
+#vacioVideo{
+    position: relative;
+    height: 500px;
+    width: 1000px;
+    margin: auto;
+    margin-top: 100px;
+    opacity: 1;   
+
+}
+
+/*
+label:hover{
+    cursor: pointer;
+}*/
+
+/*
+#check1{
+    display: none;
+    z-index: 1;
+}
+#check1:hover{
+    cursor: pointer;
+}
+#check1:checked ~ #vacioVideo{
+    position: absolute;
+    margin-top: 10px;
+    top:-200px;    
+    height: 500px;
+    width: 1000px;
+    margin-left: -500px;
+    opacity: 1;  
+}
+#vacioVideo{
+    position: absolute;
+    width: 0px;
+    margin: auto;
+    background: #f5f0f0;
+    z-index: 2;
+    transition: all 1000ms cubic-bezier(1,0,0,6);
+    transition-timing-function: cubic-bezier(1,0,0,10);
+    overflow: hidden;
+}
+
+#cerr{
+    font-size: 30px;
+    margin-top: -350px;
+    margin-left: 450px;
+    background-color: fuchsia;
+}
+#check2:hover,#cerrar{
+    cursor: pointer;
+}
+#cerrar{
+    position: absolute;
+    margin-top: -320px;
+    margin-left: 350px;
+    
+}
+
+#check2:checked ~ vacioVideo{
+opacity: 0;
+}*/
+
+
+
+#show-modal{
+    padding-top: 100px;
+    background: gray;
+    border-radius: 0px;
+    transition: all 0.15s linear;
+    border-radius: 50px 50px 50px 50px;
+}
+
+#show-modal:hover{
+    cursor: pointer;
+    background: #ebeae6;
+}
+
+.modal{
+    position: fixed;
+    top: -100vh;
+    left: 0;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.75);
+    width: 100vw;
+    height: 100vh;
+    opacity: 0;
+    transition: opacity 0.35s ease;
+}
+
+.modal .content-modal{
+    
+    width: 100%;
+    max-width: 500px;
+    position: fixed;
+    left: 53%;
+    top: 100vh;
+    transition: top 0.35s ease;
+    margin-left: -500px;
+    background: black;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+    border-radius: 2px;
+    z-index: 1;
+}
+
+.modal article{
+    height: 500px;
+    width: 1000px;
+}
+
+.close-modal{
+    position: absolute;
+    top: 0.2em;
+    right: 0.375em;
+    margin: 0;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.modal a:hover{
+    color: #c0392b;
+}
+
+.modal:target{
+    opacity: 1;
+    top: 0px;
+}
+
+.modal .btn-close-modal{
+    position: absolute;
+    left: 450px;
+    width: 400px;
+    height: 150px;
+    z-index:1;
+}
+
+.modal:target .content-modal{
+    top: 120px;
+    transition: top 0.35s ease;
+}
+
+@media (max-width: 500px){
+    .modal .content-modal{
+        width: 90%;
+        max-width: none;
+        left: 5%;
+        margin-left: 0;
+    }
+    
+}
+
+

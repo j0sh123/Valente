@@ -1,0 +1,301 @@
+body{
+    margin: 0;
+    background-color: white;
+    height: auto;
+}
+.a{
+    height: 70px;
+    margin: auto;
+}
+#header{
+    height: 70px;
+    margin: auto;
+    top: 0px;
+    width: 100%;
+    background-color: #ffffff;
+    position: fixed;
+    z-index: 10;
+}
+#encabezado{
+    width: 1000px;
+	height:50px;
+    background-color: #ffffff;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+
+    
+}
+#logo{
+    width: 200px;
+	height:10px;;
+    margin: auto;
+    background-size: cover;
+	font-family:cartier;
+	font-size:40px;
+	text-align:center;
+    margin-top:-20px;
+     color: #655f56;
+}
+#encabezado nav{
+    float: right;
+    margin-top: -10px;
+}
+#encabezado nav ul li{
+    display: inline;
+    margin-left: 10px;
+}
+
+#encabezado nav  img{
+    width: 10px;
+    height: 10px;
+}
+#encabezado nav span{
+    font-size: 12px;
+    color: #655f56;
+}
+
+/*menuu*/
+
+#check{
+    display: none;
+}
+#check:checked ~ .menu2{
+    width: 300px;
+}
+.menu2{
+    position: fixed;
+    width: 0px;
+    height: 100vh;
+    background: #ffffff;
+    z-index: 10;
+    transition: all 1000ms cubic-bezier(1,0,0,6);
+    transition-timing-function: cubic-bezier(1,0,0,10);
+    overflow: hidden;
+	margin-top:0px;
+}
+.menu label{
+    position: fixed;
+    width: 10%;
+    max-width: 1000px;
+    top: 15px;
+    font-size: 12px;
+    z-index: 10;
+    margin-left: 170px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: #655f56;
+}
+.menu2 ul{
+    margin-top: 100px;
+    
+}
+.menu2 li{
+    text-align: center;
+    list-style: none;
+    padding: 15px;
+    cursor: pointer;
+    display: block;
+    width: 250px;
+    margin-top: 0px;
+    margin-left: -50px;
+}
+.menu2 li:hover{
+    background: rgba(0,0,0,0.2);
+   
+}
+.menu2 li a{
+    /*color: #212121;*/
+    font-size: 13px;
+    color: #655f56;
+}
+.menu img{
+    width: 15px;
+    margin-right: 0;
+}
+
+
+
+
+/* footer */
+footer{
+    position: relative;
+    margin-top: 10%;
+    bottom: 0;
+}
+#pie{
+    float: left;
+    position:relative;
+    background-color: #212121;
+    width: 100%;
+    height: 600px;
+    bottom: 0;
+    color: black;
+}
+#pie1{
+    position: relative;
+    background-color: #212121;
+    position: relative;
+    height: 600px;
+    width: 1000px;
+    margin: auto;
+}
+.p1{
+    float: left;
+    width: 250px;
+    height: 300px;
+}
+#pemail{
+    height: 150px;
+    width: 100%;
+    background-color:#212121;
+    text-align: center;
+}
+#pemail span{
+    font-size: 25px;
+}
+
+#pnosotros{
+    background-color: #212121;    
+}
+#pmodelosr{
+    background-color: #212121;
+}
+#pcontactos{
+    background-color: #212121;
+}
+#pambos{
+    background-color: #212121;
+}
+#ppagos{
+    float: left;
+    background-color: #212121;
+    height: 70px;
+    width: 100%;
+}
+#copyr{
+    float: left;
+    background-color: #212121;
+    height: 20px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.p1{
+    text-align: center;
+    align-content: center;
+    color: white;
+}
+.navtitulo{
+    font-size: 20px;
+    margin-left: -90px;
+   
+}
+nav{
+    text-align: left;
+    font-size: 13px;
+}
+#nos{
+    margin-left: -60px;
+}
+#canales{
+    margin-left: 20px;
+}
+#contac{
+    margin-left: -10px;
+}
+
+
+
+nav a{
+    color: #c4c4c4;
+    text-decoration: none;
+    
+}
+nav li{
+    display: block;
+    margin-top: 10px;
+    
+}
+nav a li:hover{
+    border-bottom: 5px solid transparent; 
+    border-image:  linear-gradient(45deg,#c4c2bf,#c4c2bf);
+    border-image-slice:1;
+    z-index: 1;
+    width: 120px;
+}
+#paredesSo nav ul li:hover{
+    border-bottom: 5px solid transparent; 
+    border-image:  linear-gradient(45deg,#c4c2bf,#c4c2bf);
+    border-image-slice:1;
+    z-index: 1;
+   width: 100px;
+}
+#ppimgs nav li img{
+     background-size: cover;
+}
+#pacontactos p{
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 50px;
+}
+
+#ppagos{
+    text-align: right;
+    margin-top: 10px;
+    
+}
+#pnosotros ul li{
+    margin-left: -7px;
+}
+#ppagos span{
+    font-size: 15px;
+    color: white;
+}
+#ppagos nav{
+    margin-top: 10px;
+    text-align: right;
+}
+#ppagos nav li{
+    display: inline;
+}
+#paredesSo nav ul li{
+    margin-left: -50px;
+}
+#pacontactos .navtitulo{
+    margin-left: -130px;
+}
+#pacontactos p{
+    text-align: left;
+    margin-left: -10px;
+    font-size: 13px;
+    color: #c4c4c4;
+}
+#ppagos p{
+    margin-left: -100px;
+
+}
+
+/*fuentes*/
+@font-face{
+	font-family:cartier;
+	src:url(../recursos/fuentes/Cartier.otf);
+	}
+
+
+
+
+section p{
+    font-family: monospace;
+    color: #575655;
+}
+section span{
+    font-family: monospace;
+}
+
+footer{
+    font-family: monospace;
+}

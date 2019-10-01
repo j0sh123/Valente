@@ -1,0 +1,117 @@
+section{
+    position: relative;
+    top:70px;
+    height: 100%;
+    
+}
+#cimagen{
+    position: relative;
+    height: 400px;
+    width: 100%;
+    background-image: url(../imganes/relojes/misionfondo4.jpg);
+    background-size: cover;
+    margin-bottom: 100px;
+}
+#ccontenido{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#ctitulo{
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+#ctitulo p{
+    font-size: 30px;
+    text-align: center;
+    
+}
+#ctitulo span{
+    font-size: 15px;
+    font-family: cursive;
+}
+
+#ccontac{
+    margin-top: 50px;
+    width: 100%;
+    height: 600px;   
+}
+.ccont{
+    width: 50%;
+    height: 100%;
+    float: left;
+   
+}
+#ccontac p{
+    font-size: 30px;
+}
+#ccontac #ccmmap{
+    width: 90%;
+    height: 60%;
+}
+#ccontac #ccmtexto{
+    font-size: 16px;
+    margin-top: 10px;
+    width: 80%;
+    height: 10%;
+    
+}
+#ccmsm{
+        background:rgba(0,0,0,0.1);
+}
+#ccmsm p{
+    margin-top: 130px;
+}
+#ccmsm #ccmcaja {
+    width: 70%;
+    height: auto;
+}
+#ccmsm #ccmcaja span{
+    margin-right: 30px;
+    float: left;
+    font-size: 17px;
+}
+input{
+    float: right;
+    width: 68%;
+}
+textarea{
+    float: right;
+    margin-bottom: 20px;
+    width: 68%;
+}
+#button{
+    text-align: center;
+    padding: 20px;
+    background: #2b4a64;
+    border:none;
+    color: white;
+}
+/*#ccmapa{
+    width: 49%;
+    border-right :4px solid transparent;
+    border-image: linear-gradient(45deg,black,black,black,0,0,0);
+    border-image-slice: 1;
+    z-index: 1;
+}*/
+
+/**/
+#cencuesta{
+    margin-top: 100px;
+    margin-left: 15%;    
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

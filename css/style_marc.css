@@ -1,0 +1,141 @@
+#mcontenido{
+    position: relative;
+    height: auto;
+    width: 100%;
+}
+#mimagen{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    margin-bottom: 100px;
+    background-image: url(../imganes/relojes/fm1_2.jpg);
+}
+
+#mctitulo{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+/*TAB*/
+
+#Tabs1 ul{
+    position: relative;
+    margin-left: 38%;
+    width: 320px;
+}
+#Tabs1 ul{
+   
+}
+#Tabs1 ul li{
+    text-align: center;
+}
+.t1{
+    height: 900px;
+}
+#mctabulador img{
+    height: 900px;
+    width: 100%;
+}
+
+
+#tabs-1 img{
+    width: 300px;
+    height: 200px;
+}
+
+.tcajasrelojes{
+    
+    height: 350px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.tanal{
+    float: left;
+    width: 30%;
+    height: 100%;
+    margin-left: 20px;
+    background-size: cover;
+}
+#Tabs1 #tcarcasa{
+    margin-left: 50px;
+}
+#Tabs1 video{
+  
+    margin-left: 15%;
+    
+}
+
+/*imganestab*/
+#tcajaanalogica #tcarcasa{
+    background-image: url(../imganes/relojes/partes/img1analo.jpg);
+}
+
+#tcajaanalogica #tpulsera{
+    background-image: url(../imganes/relojes/partes/img2analo.jpg);
+}
+#tcajaanalogica #tinterior{
+    background-image: url(../imganes/relojes/partes/img3analo.jpg);
+}
+
+
+#tcajaDigital #tcarcasa{
+    background-image: url(../imganes/relojes/partes/img1digi.jpg);
+}
+#tcajaDigital #tinterior{
+    background-image: url(../imganes/relojes/partes/img4digi.jpg);
+}
+#tcajaDigital #tpulsera{
+    background-image: url(../imganes/relojes/partes/img3digi.jpg);
+}
+
+
+#tcajaSmart #tcarcasa{
+    background-image: url(../imganes/relojes/partes/img1smart.jpg);
+}
+#tcajaSmart #tinterior{
+    background-image: url(../imganes/relojes/partes/img2smart.jpg);
+}
+#tcajaSmart #tpulsera{
+    background-image: url(../imganes/relojes/partes/img3smart.jpg);
+}
+
+
+
+.overlay {
+  position: relative;
+  left: 0;
+  right: 0;
+  background: rgba(0,0,0,0.4);
+  overflow: hidden;
+  width: 100%;
+  height:0px;
+  transition: .5s ease;
+  top: 0px;
+}
+.container:hover .overlay {
+  height: 350px;
+  top:-350px;
+  margin-bottom: -400px;
+}
+#container4{
+    height: 400px;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  position: absolute;
+  overflow: hidden;
+  top: 9%;
+  left: 35%;
+  transform: translate(50%, 50%);
+  -ms-transform: translate(50%, 50%);
+}
+.text p{
+    font-size: 50px;
+}
+
+
+

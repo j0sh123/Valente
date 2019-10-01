@@ -1,0 +1,217 @@
+section{
+    height: auto;
+}
+
+#pdeslider{
+    position: relative;
+    top: 0px;
+    width: 100%;
+    height: 600px;
+  /*  background-image: url(../imganes/relojes/imgslider/fm4.jpg);*/
+    background-size: cover;
+    
+}
+
+#ptitulo{
+     position: relative;
+     text-align: center;
+     margin-top: 100px;
+    font-size: 40px;
+}
+#hislider1{
+    z-index: 10;
+     background-image: url(../dataimages/fm4_2.jpg);
+    background-size: cover;
+}
+
+.ppost{
+    height: 400px;
+    width: 100%;
+    margin-top: 100px;
+    min-height: 100px;
+    background-size: cover;
+}
+.contenido{
+    height: 1500px;
+    width: 100%;
+}
+
+#pdeimagen{
+    background-image: url(../imganes/paisajes/golf_1.jpg);   
+}
+#pacimagen{
+    background-image: url(../imganes/paisajes/agua_2.jpg);
+}
+#phomimagen{
+    background-image: url(../imganes/paisajes/hombres_1.jpg);
+}
+#pmujimagen{
+    background-image: url(../imganes/paisajes/mujer_1.jpg);
+}
+
+.pccon1{
+    position: relative;
+    height: 500px;
+    width: 100%;
+}
+
+.pclr1{
+    float: left;
+    width: 60%;
+    height: 100%;
+    background-size: cover;
+}
+.pcll1{
+    float: right;
+    height: 100%;
+    width: 40%;
+    background-color: #f2ebeb;
+}
+.pclr2{
+    float: left;
+    width: 40%;
+    height: 100%;
+    background-color: #f2ebeb;
+}
+.pcll2{
+    float: right;
+    height: 100%;
+    width: 60%;
+    background-size: cover;
+
+}
+/*deporte with 760px*/
+#pcrimg1{
+    background-image: url(../imganes/relojes/depo/img2_1.jpg);
+}
+#pcrimg2{
+    background-image: url(../imganes/relojes/depo/img1_1.jpg);
+}
+#pcrimg3{
+    background-image: url(../imganes/relojes/depo/img3_1.jpg);
+}
+/*acuatico*/
+#pcrimg4{
+    background-image: url(../imganes/relojes/buceo/img6_1.jpg);
+}
+#pcrimg5{
+    background-image: url(../imganes/relojes/buceo/img2_1.jpg);
+}
+#pcrimg6{
+    background-image: url(../imganes/relojes/buceo/img3_1.jpg);
+}
+/*hombre*/
+
+#pcrimg7{
+    background-image: url(../imganes/relojes/hom/img1_1.jpg);
+}
+#pcrimg8{
+    background-image: url(../imganes/relojes/hom/img2.jpg);
+}
+#pcrimg9{
+    background-image: url(../imganes/relojes/f1_1.jpg);
+}
+
+/*mujeres*/
+#pcrimg10{
+    background-image: url(../imganes/relojes/muj/img1.jpg);
+}
+#pcrimg11{
+    background-image: url(../imganes/relojes/muj/img2.jpg);
+}
+#pcrimg12{
+    background-image: url(../imganes/relojes/muj/img3_1.jpg);
+}
+
+.pcll1 p{
+    margin-left: 15%;
+    margin-top: 90px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: black;
+}
+.pcll1 nav{
+    display: block;
+    margin-bottom: 10px;
+}
+.pcll1 nav li{
+    color: #83837f;
+    text-align: justify;
+    font-size: 15px;
+    margin-left: 15%;
+    margin-top: 5PX;
+}
+.pcll1 span{
+    color: #83837f;
+    font-size: 20px;
+    margin-left: 15%;
+}
+
+.pclr2 p{
+    margin-left: 25%;
+    margin-top: 80px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: black;
+}
+.pclr2 nav{
+    display: block;
+    margin-bottom: 10px;
+}
+.pclr2 nav li{
+    color: #83837f ;
+    text-align: justify;
+    font-size: 15px;
+    margin-left: 25%;
+    margin-top: 5PX;
+}
+.pclr2 span{
+    color: #83837f;
+    font-size: 20px;
+    margin-left: 25%;
+}
+
+#pie{
+    margin-top: 100px;
+    position: relative;
+    bottom: 0;
+   
+}
+
+/*EFECTOS*/
+
+.overlay {
+  position: relative;
+  left: 0;
+  right: 0;
+  background: rgba(0,0,0,0.4);
+  overflow: hidden;
+  width: 100%;
+  height:0px;
+  transition: .5s ease;
+  top: 0px;
+    color: white;
+}
+.container:hover .overlay {
+  height: 400px;
+  top:-400px;
+  margin-bottom: -400px;
+    color: white;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  position: absolute;
+  overflow: hidden;
+  top: 9%;
+  left: 35%;
+  transform: translate(50%, 50%);
+  -ms-transform: translate(50%, 50%);
+}
+.text p{
+    font-size: 50px;
+    color: white;
+}
+
+
